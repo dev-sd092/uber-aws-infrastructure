@@ -62,21 +62,19 @@ Below are the Terraform stages executed during the deployment:
 |------|----------|-------------|
 | **1. Initialize Terraform** | `terraform init` | <img width="940" height="486" alt="image" src="https://github.com/user-attachments/assets/02b62cc3-7256-440b-b66f-59d254a8b391" />|
 | **2. Validate Configuration** | `terraform validate` | <img width="940" height="86" alt="image" src="https://github.com/user-attachments/assets/7931c4ba-ede1-4611-827b-6b1c8594be90" /> |
-| **3. Plan Deployment** | `terraform plan` |<img width="940" height="239" alt="image" src="https://github.com/user-attachments/assets/b889795e-5c23-4b7b-b731-94e3a3bdfd64" />
-<img width="940" height="157" alt="image" src="https://github.com/user-attachments/assets/592e2b78-ac9a-4729-83a5-cd85c5ec9aa2" /> |
-| **4. Apply Infrastructure** | `terraform apply -auto-approve` | <img width="940" height="236" alt="image" src="https://github.com/user-attachments/assets/968517c7-7e4a-41a5-8e27-31f113769d2d" />
- <img width="940" height="267" alt="image" src="https://github.com/user-attachments/assets/280340d9-8c83-4136-ac79-15f98dd2d6d7" /> |
-| **5. Application Running** | Verified successful deployment on EC2 instance | <img width="940" height="505" alt="image" src="https://github.com/user-attachments/assets/ac71ed46-c1f2-4080-b7d4-bd14f5f85917" /> |
-| **6. Instances Created** | <img width="940" height="164" alt="image" src="https://github.com/user-attachments/assets/6279d04c-3d8a-4875-9bb6-05c0a297ef1c" /> |
-| **7. Load Balancer Configured** | <img width="940" height="152" alt="image" src="https://github.com/user-attachments/assets/8d39f7d6-a5db-4d05-a614-6cb4fe86730b" /> |
-| **8. Target Group Health Checks** | <img width="940" height="137" alt="image" src="https://github.com/user-attachments/assets/b0e9f1d7-0a9d-4132-94fa-dfd59c297cc5" /> |
-| **9. Security Groups Configuration** | <img width="940" height="213" alt="image" src="https://github.com/user-attachments/assets/495454f7-5627-4d58-b076-25c715de116d" /> |
-| **10. VPC Details** | <img width="940" height="144" alt="image" src="https://github.com/user-attachments/assets/65c50d01-ec12-4e52-9426-2dd9d03986cb" /> |
-| **11. VPC Resource Map** |<img width="940" height="314" alt="image" src="https://github.com/user-attachments/assets/ed65b24d-4968-4a36-b0da-97919ee93099" /> |
-| **12. Subnets within VPC** |<img width="940" height="195" alt="image" src="https://github.com/user-attachments/assets/6f3c8e7c-e8ce-4852-817e-08a9615cde9d" /> |
-| **13. Route Tables** |<img width="940" height="199" alt="image" src="https://github.com/user-attachments/assets/c1c24323-5909-448a-9509-c66f4c388206" />|
-| **14. Internet Gateway** |<img width="940" height="106" alt="image" src="https://github.com/user-attachments/assets/c378919b-4f7a-4b88-a2b7-167b4c2b3df3" />|
-| **15. NAT Gateway** | <img width="940" height="112" alt="image" src="https://github.com/user-attachments/assets/3e120818-acb4-42b1-b0b9-87032139cf90" /> |
+| **3. Plan Deployment** | `terraform plan` |<img width="940" height="239" alt="image" src="https://github.com/user-attachments/assets/b889795e-5c23-4b7b-b731-94e3a3bdfd64" /> <img width="940" height="157" alt="image" src="https://github.com/user-attachments/assets/592e2b78-ac9a-4729-83a5-cd85c5ec9aa2" /> |
+| **4. Apply Infrastructure** | `terraform apply -auto-approve` | <img width="940" height="236" alt="image" src="https://github.com/user-attachments/assets/968517c7-7e4a-41a5-8e27-31f113769d2d" />  <img width="940" height="267" alt="image" src="https://github.com/user-attachments/assets/280340d9-8c83-4136-ac79-15f98dd2d6d7" /> |
+| **5. Application Running** |  ...... | <img width="940" height="505" alt="image" src="https://github.com/user-attachments/assets/ac71ed46-c1f2-4080-b7d4-bd14f5f85917" /> |
+| **6. Instances Created** |  ...... | <img width="940" height="164" alt="image" src="https://github.com/user-attachments/assets/6279d04c-3d8a-4875-9bb6-05c0a297ef1c" /> |
+| **7. Load Balancer Configured** |  ...... | <img width="940" height="152" alt="image" src="https://github.com/user-attachments/assets/8d39f7d6-a5db-4d05-a614-6cb4fe86730b" /> |
+| **8. Target Group Health Checks** |  ...... | <img width="940" height="137" alt="image" src="https://github.com/user-attachments/assets/b0e9f1d7-0a9d-4132-94fa-dfd59c297cc5" /> |
+| **9. Security Groups Configuration** |  ...... | <img width="940" height="213" alt="image" src="https://github.com/user-attachments/assets/495454f7-5627-4d58-b076-25c715de116d" /> |
+| **10. VPC Details** |  ...... | <img width="940" height="144" alt="image" src="https://github.com/user-attachments/assets/65c50d01-ec12-4e52-9426-2dd9d03986cb" /> |
+| **11. VPC Resource Map** |  ...... | <img width="940" height="314" alt="image" src="https://github.com/user-attachments/assets/ed65b24d-4968-4a36-b0da-97919ee93099" /> |
+| **12. Subnets within VPC** |  ...... | <img width="940" height="195" alt="image" src="https://github.com/user-attachments/assets/6f3c8e7c-e8ce-4852-817e-08a9615cde9d" /> |
+| **13. Route Tables** |  ...... | <img width="940" height="199" alt="image" src="https://github.com/user-attachments/assets/c1c24323-5909-448a-9509-c66f4c388206" />|
+| **14. Internet Gateway** | ...... | <img width="940" height="106" alt="image" src="https://github.com/user-attachments/assets/c378919b-4f7a-4b88-a2b7-167b4c2b3df3" />|
+| **15. NAT Gateway** | ...... | <img width="940" height="112" alt="image" src="https://github.com/user-attachments/assets/3e120818-acb4-42b1-b0b9-87032139cf90" /> |
 | **16. Clean-up** | `terraform destroy -auto-approve` | <img width="940" height="201" alt="image" src="https://github.com/user-attachments/assets/7041adc2-c417-468e-a561-0957529a89ca" />|
 
 ---
