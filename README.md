@@ -94,28 +94,28 @@ Below are the Terraform stages executed during the deployment:
 
 ### Steps
 
-## 1. Clone the repository
+#### 1. Clone the repository
 git clone https://github.com/dev-sd092/uber-aws-infrastructure.git
 cd uber-aws-infrastructure
 
-## 2. Initialize Terraform
+#### 2. Initialize Terraform
 terraform init
 
-## 3. Validate configuration
+#### 3. Validate configuration
 terraform validate
 
-## 4. Review the execution plan
+#### 4. Review the execution plan
 terraform plan
 
-## 5. Deploy infrastructure
+#### 5. Deploy infrastructure
 terraform apply -auto-approve
 
-## 6. Destroy resources (cleanup)
+#### 6. Destroy resources (cleanup)
 terraform destroy -auto-approve
 
 ---
 
-📊 Outputs
+### 📊 Outputs
 
 After a successful terraform apply, you’ll get key outputs such as:
 
@@ -128,14 +128,14 @@ These can be used to connect your Uber Clone frontend or backend application.
 
 ---
 
-🧹 Clean-Up
+### 🧹 Clean-Up
 To avoid unwanted AWS costs:
 
 terraform destroy -auto-approve
 
 ---
 
-🎯 Learning Objectives / Interview Value
+### 🎯 Learning Objectives / Interview Value
 
 This project demonstrates:
 
@@ -148,9 +148,9 @@ Cost-aware provisioning and clean-up best practices.
 
 ---
 
-🧑‍💻 Author
+### 🧑‍💻 Author
 
 Sanket Desai. (DevOps Engineer)
 💼 Passionate about Cloud Infrastructure, Automation, and DevSecOps.
-📧 Reach out for collaboration: [your-email@example.com]
-🔗 LinkedIn Profile
+📧 Reach out for collaboration: [sanketdesai092@gmail.com]
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/sanket-desai/)
