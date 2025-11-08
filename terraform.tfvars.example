@@ -1,0 +1,6 @@
+project_name   = "uber-clone"
+aws_region  = "us-east-1"
+environment = "dev"
+
+db_password = "Password123"
+my_ip          = "103.156.236.203/32"  # Get your IP from: curl ifconfig.me
