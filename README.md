@@ -94,23 +94,23 @@ Below are the Terraform stages executed during the deployment:
 
 ### Steps
 
-# 1. Clone the repository
+## 1. Clone the repository
 git clone https://github.com/dev-sd092/uber-aws-infrastructure.git
 cd uber-aws-infrastructure
 
-# 2. Initialize Terraform
+## 2. Initialize Terraform
 terraform init
 
-# 3. Validate configuration
+## 3. Validate configuration
 terraform validate
 
-# 4. Review the execution plan
+## 4. Review the execution plan
 terraform plan
 
-# 5. Deploy infrastructure
+## 5. Deploy infrastructure
 terraform apply -auto-approve
 
-# 6. Destroy resources (cleanup)
+## 6. Destroy resources (cleanup)
 terraform destroy -auto-approve
 
 ---
