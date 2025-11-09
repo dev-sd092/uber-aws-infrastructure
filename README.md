@@ -95,62 +95,59 @@ Below are the Terraform stages executed during the deployment:
 ### Steps
 
 #### 1. Clone the repository
-git clone https://github.com/dev-sd092/uber-aws-infrastructure.git
-cd uber-aws-infrastructure
+- git clone https://github.com/dev-sd092/uber-aws-infrastructure.git
+- cd uber-aws-infrastructure
 
 #### 2. Initialize Terraform
-terraform init
+- terraform init
 
 #### 3. Validate configuration
-terraform validate
+- terraform validate
 
 #### 4. Review the execution plan
-terraform plan
+- terraform plan
 
 #### 5. Deploy infrastructure
-terraform apply -auto-approve
+- terraform apply -auto-approve
 
 #### 6. Destroy resources (cleanup)
-terraform destroy -auto-approve
+- terraform destroy -auto-approve
 
 ---
 
 ### 📊 Outputs
-
-After a successful terraform apply, you’ll get key outputs such as:
-
-ALB DNS Name
-EC2 Instance IDs
-VPC ID
-Subnet IDs
-Security Group IDs
-These can be used to connect your Uber Clone frontend or backend application.
+- After a successful terraform apply, you’ll get key outputs such as:
+  ALB DNS Name
+  EC2 Instance IDs
+  VPC ID
+  Subnet IDs
+  Security Group IDs
+- These can be used to connect your Uber Clone frontend or backend application.
 
 ---
 
 ### 🧹 Clean-Up
 To avoid unwanted AWS costs:
-
-terraform destroy -auto-approve
+- terraform destroy -auto-approve
 
 ---
 
 ### 🎯 Learning Objectives / Interview Value
-
-This project demonstrates:
-
-Hands-on Terraform automation for a real-world use case.
-AWS networking & compute orchestration using IaC.
-Understanding 3-tier cloud architecture with isolation and scalability.
-Proper use of Terraform modules, variables, and outputs.
-Infrastructure lifecycle management (init → validate → apply → destroy).
-Cost-aware provisioning and clean-up best practices.
+## This project demonstrates:
+- Hands-on Terraform automation for a real-world use case.
+- AWS networking & compute orchestration using IaC.
+- Understanding 3-tier cloud architecture with isolation and scalability.
+- Proper use of Terraform modules, variables, and outputs.
+- Infrastructure lifecycle management (init → validate → apply → destroy).
+- Cost-aware provisioning and clean-up best practices.
 
 ---
 
 ### 🧑‍💻 Author
 
 Sanket Desai. (DevOps Engineer)
-💼 Passionate about Cloud Infrastructure, Automation, and DevSecOps.
-📧 Reach out for collaboration: [sanketdesai092@gmail.com]
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/sanket-desai/)
+- 💼 Passionate about Cloud Infrastructure, Automation, and DevSecOps.
+- 📧 Reach out for collaboration: [sanketdesai092@gmail.com] 
+- 🔗 [LinkedIn Profile](https://www.linkedin.com/in/sanket-desai/)
+
+---
